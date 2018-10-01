@@ -1,13 +1,13 @@
 {
 	"name": "MyCrypto",
 	"description": "A MyCrypto theme for Matomo!",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"theme": true,
 	"require": {
         "matomo": ">=2.0.0"
     },
 	"stylesheet": "stylesheets/theme.less",
-	"homepage": "https://github.com/MrLuit/Theme-MyCrypto",
+	"homepage": "https://github.com/MrLuit/Matomo-MyCrypto",
 	"license": "MIT",
 	"keywords": ["mycrypto", "blue"],
 	"authors": [{
