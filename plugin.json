@@ -7,7 +7,7 @@
         "piwik": ">=2.0.0"
     },
 	"stylesheet": "stylesheets/theme.less",
-	"homepage": "https://github.com/MrLuit/Matomo-MyCrypto",
+	"homepage": "https://github.com/MrLuit/Theme-MyCrypto",
 	"license": "MIT",
 	"keywords": ["mycrypto", "blue"],
 	"authors": [{
