@@ -1,4 +1,41 @@
+@theme-fontFamily-base: Arial, Verdana, sans-serif;
+
 @theme-color-brand:                       #007896;
+
 @theme-color-header-background:           #007896;
 @theme-color-header-text:                 #fff;
+
 @theme-color-widget-title-background:     #007896;
+@theme-color-widget-title-text:           #fff;
+@theme-color-widget-background:           #fff;
+@theme-color-widget-border:               @theme-color-background-tinyContrast;
+
+.theWidgetContent .card .card-content table.dataTable th{
+  background-color: #007896;
+  color: white;
+  font-family: @theme-fontFamily-base;
+  font-size: 0.8em;
+}
+
+.piwikSelector span.title, .piwikSelector a.title{
+    font-family: @theme-fontFamily-base;
+    font-size: 14px;
+}
+
+.dashboardSettings .submenu ul{
+  font-size: 13px;
+}
+
+#root #logo img.default-piwik-logo{
+  width: 225px;
+  max-height: none;
+  padding: 10px 0px;
+}
+
+#root .top_controls .piwikTopControl, #standalone .top_controls .piwikTopControl, .quick-access input, .siteSelector.piwikSelector a.title{
+  background-color: #fff !important;
+}
+
+.tableIcon.activeIcon{
+  background-color: rgba(0, 0, 0, 0);
+}
