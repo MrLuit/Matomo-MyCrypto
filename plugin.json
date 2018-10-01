@@ -3,6 +3,9 @@
 	"description": "A MyCrypto theme for Matomo!",
 	"version": "0.1.0",
 	"theme": true,
+	"require": {
+        "piwik": ">=3.3.0-stable"
+    },
 	"stylesheet": "stylesheets/theme.less",
 	"homepage": "https://github.com/MrLuit/Theme-MyCrypto",
 	"license": "MIT",
